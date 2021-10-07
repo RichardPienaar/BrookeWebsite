@@ -1,0 +1,46 @@
+
+  h1 {
+      font-size: 200%;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  img {
+    transition: transform .2s; /* Animation */
+    width: 80%;
+    display:block;
+    margin:auto;
+  }
+  img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+
+  }
+  
+
+.box {
+    background: linear-gradient(270deg, #d6ec28, #d77bf2);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

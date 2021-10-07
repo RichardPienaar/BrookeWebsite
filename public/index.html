@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="css/main.css">
+
+
+<body>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item is-large" href='index.html'>
+                <h1><b>Brooke Reilly</b></h1>
+              </a>
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+          <div class="navbar-start">
+        
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Design
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="#posters">
+                  Posters
+                </a>
+                <a class="navbar-item" href='#illustration'>
+                    Illustration
+                  </a>
+                <a class="navbar-item"  href="#branding">
+                 Branding
+                </a>
+                <a class="navbar-item" href='#type'>
+                  Type
+                </a>
+
+              </div>
+            </div>
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary" href=mailto:brookelr2@gmail.com>
+                  <strong>Contact</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<!-- Photo Grid -->
+
+<div class="box"> 
+  <div>
+    
+    <img id="posters" src="images/POSTERS.png" onclick="window.open('images/POSTERS.png', '_blank');">
+    
+  </div>
+</div>
+<div class="box"> 
+    <div>
+      <img id="illustration" src="images/Illustrations.png" onclick="window.open('images/Illustrations.png', '_blank');">
+      
+    </div>  
+  
+  </div>
+<div class="box"> 
+  <div>
+    
+    <img id="branding" src="images/Branding.png" onclick="window.open('images/Branding.png', '_blank');">
+    
+  </div>  
+</div>
+<div class="box"> 
+  <div>
+    <img id="type" src="images/TYPE BOOKLET.png" onclick="window.open('images/TYPE BOOKLET.png', '_blank');"> 
+    
+  </div>  
+</div>
+
+
+</body>
+</html>
