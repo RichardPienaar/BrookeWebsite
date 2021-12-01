@@ -1,4 +1,5 @@
-
+  
+  
   h1 {
       font-size: 200%;
   }
@@ -9,16 +10,14 @@
 
   img {
     transition: transform .2s; /* Animation */
-    width: 80%;
+    width: 100%;
     display:block;
     margin:auto;
   }
   img:hover {
-    transform: scale(1.02);
     cursor: pointer;
 
   }
-  
 
 .box {
     background: linear-gradient(270deg, #d6ec28, #d77bf2);
